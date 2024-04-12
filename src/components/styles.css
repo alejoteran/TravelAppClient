@@ -1,0 +1,35 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+}
+.BarraNavegacion{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.DatosBusqueda{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 50px;
+    justify-content: space-between;
+}
+.DatosBusqueda > button{
+    margin: 10px;
+}
+.DatosLugar{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.DatosNavegacion > button{
+    position: absolute;
+    left: 0;
+}
+.DatosNavegacion > div{
+    position: absolute;
+    right: 0;
+}
+
+
