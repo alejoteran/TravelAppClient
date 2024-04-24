@@ -1,35 +1,60 @@
-.Container{
-    display: flex;
-    flex-direction: column;
-}
+
 .BarraNavegacion{
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-}
-.DatosBusqueda{
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    top: 50px;
-    justify-content: space-between;
-}
-.DatosBusqueda > button{
-    margin: 10px;
-}
-.DatosLugar{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-.DatosNavegacion > button{
-    position: absolute;
-    left: 0;
+    height: 50px;
+    background-color: white;
 }
 .DatosNavegacion > div{
     position: absolute;
     right: 0;
 }
 
+.BotonInicio{
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    background-color: white;
+}
 
+.Reg{
+    background-color: #457FEA;
+    color: white;
+}
+.Log{
+    background-color: #ECECEC;
+    color: #457FEA;
+}
+
+.Opciones{
+    display: flex;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 42.4px;
+}
+.Opciones > button{
+    background-color: white;
+}
+
+
+.DatosBusqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECECEC;
+    border-color: black;
+    border-style: solid;
+}
+.DatosBusqueda > button{
+    margin: 10px;
+    background-color: #457FEA;
+    color: white;
+}
+.DatosLugar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}

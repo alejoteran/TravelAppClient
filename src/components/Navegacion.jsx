@@ -7,19 +7,23 @@ export default function Navegacion(){
     return(
         <>
             <div  className='BarraNavegacion'>
-                <nav className='DatosNavegacion'>
-                    <button onClick={() => {
+                <div className='DatosNavegacion'>
+                    <button className='BotonInicio' onClick={() => {
                         navigate("/")
                     }}>TravelApp</button>
+                    <div className='Opciones'>
+                        <button>Vuelos</button>
+                        <button>Planes</button>
+                    </div>
                     <div>
-                        <button onClick={() => {
+                        <button className='Log' onClick={() => {
                             navigate("/Login")
                         }}>Iniciar sesion</button>
-                        <button  onClick={() => {
+                        <button className='Reg' onClick={() => {
                             navigate("/Register")
                         }}>Registrarse</button>
                     </div>
-                </nav>
+                </div>
             </div>
         </>
     )

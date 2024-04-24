@@ -5,22 +5,24 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navegacion from './components/Navegacion'
 import Busqueda from './components/Busqueda'
+import Vuelo from './components/Vuelo'
 
 function App() {
   const [count, setCount] = useState(0)
   const navigate = useNavigate();
 
+  const Vuelos = [
+    <Vuelo />,
+    <Vuelo />,
+    <Vuelo />
+  ]
+
   return (
     <>
       <Navegacion/>
       <Busqueda />
-      <h1>Bienvenido a TravelApp</h1>
       <div>
-        <ul>
-          <li>Vuelo 1</li>
-          <li>Vuelo 2</li>
-          <li>vuelo 3</li>
-        </ul>
+        {Vuelos}
       </div>
     </>
   )
