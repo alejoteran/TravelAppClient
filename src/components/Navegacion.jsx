@@ -1,4 +1,4 @@
-import './styles.css';
+import './stylesNavegacion.css';
 import {useNavigate} from "react-router-dom"
 export default function Navegacion(){
 
@@ -12,7 +12,9 @@ export default function Navegacion(){
                         navigate("/")
                     }}>TravelApp</button>
                     <div className='Opciones'>
-                        <button>Vuelos</button>
+                        <button onClick={() => {
+                        navigate("/")
+                        }}>Vuelos</button>
                         <button>Planes</button>
                     </div>
                     <div>

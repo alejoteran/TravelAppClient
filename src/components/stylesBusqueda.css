@@ -1,0 +1,20 @@
+
+.DatosBusqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECECEC;
+    border-color: black;
+    border-style: solid;
+}
+.DatosBusqueda > button{
+    margin: 10px;
+    background-color: #457FEA;
+    color: white;
+}
+.DatosLugar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}

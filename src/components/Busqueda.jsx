@@ -1,3 +1,4 @@
+import './stylesBusqueda.css';
 export default function Busqueda(){
 
 

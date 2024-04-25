@@ -1,0 +1,46 @@
+.ContainerRegister {
+    justify-content: center;
+    display: flex;
+}
+.DatosRegister {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+.SectionRegister{
+    display: flex;
+    flex-direction: column;
+}
+.SectionRegister > button{
+    margin-top: 50px;
+    background-color: #457FEA;
+    color: white;
+}
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+  
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+}
+  
+.Datos{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
