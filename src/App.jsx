@@ -4,6 +4,7 @@ import './App.css'
 import Navegacion from './components/Navegacion'
 import Busqueda from './components/Busqueda'
 import Vuelo from './components/Vuelo'
+import Planes from './components/Planes'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
           {Vuelos}
         </div>
       </div>
+      <Planes />
     </>
   )
 }
