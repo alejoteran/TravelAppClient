@@ -15,7 +15,9 @@ export default function Navegacion(){
                         <button onClick={() => {
                         navigate("/")
                         }}>Vuelos</button>
-                        <button>Planes</button>
+                        <button onClick={() => {
+                            navigate("/Planes")
+                        }}>Planes</button>
                     </div>
                     <div>
                         <button className='Log' onClick={() => {

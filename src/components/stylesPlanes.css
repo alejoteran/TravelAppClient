@@ -1,0 +1,46 @@
+.EstiloPlan{
+    display: flex;
+    height: 140px;
+    width: 950px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.EstiloPlan > img{
+    height: 100px;
+    width: 100px;
+}
+.EstiloPlan > div > h4{
+    margin: 0;
+}
+.EstiloPlan > div > h5{
+    display: flex;
+    flex-direction: column;
+}
+.ContenedorPlan{
+    display: flex;
+    justify-content: center;
+}
+
+.DatosBusqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECECEC;
+    border-color: black;
+    border-style: solid;
+}
+.DatosBusqueda > button{
+    margin: 10px;
+    background-color: #457FEA;
+    color: white;
+}
+.DatosLugar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
