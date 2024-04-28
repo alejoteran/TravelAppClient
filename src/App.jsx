@@ -24,7 +24,6 @@ function App() {
           {Vuelos}
         </div>
       </div>
-      <Planes />
     </>
   )
 }
