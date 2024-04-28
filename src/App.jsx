@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import {useNavigate} from "react-router-dom"
-import './App.css'
-import Navegacion from './components/Navegacion'
-import Busqueda from './components/Busqueda'
-import Vuelo from './components/Vuelo'
-import Planes from './components/Planes'
+import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
+import axios from 'axios';
+import './App.css';
+import Navegacion from './components/Navegacion';
+import Busqueda from './components/Busqueda';
+import Vuelo from './components/Vuelo';
 
 function App() {
   const [count, setCount] = useState(0)
