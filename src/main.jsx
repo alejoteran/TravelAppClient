@@ -10,10 +10,15 @@ import {
 import Login from './components/Login.jsx'
 import Register from './components/Register.jsx'
 import Planes from './components/Planes.jsx'
+import HomePage from './components/HomePage.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
+    element: <HomePage />
+  },
+  {
+    path: '/Vuelos',
     element: <App />
   },
   {

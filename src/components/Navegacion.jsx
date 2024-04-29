@@ -13,7 +13,7 @@ export default function Navegacion(){
                     }}>TravelApp</button>
                     <div className='Opciones'>
                         <button onClick={() => {
-                        navigate("/")
+                        navigate("/Vuelos")
                         }}>Vuelos</button>
                         <button onClick={() => {
                             navigate("/Planes")
